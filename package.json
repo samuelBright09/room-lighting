@@ -1,0 +1,23 @@
+{
+  "name": "statically-strict-debugger",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelBright09/room-lighting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelBright09/room-lighting/issues"
+  },
+  "homepage": "https://github.com/samuelBright09/room-lighting#readme",
+  "description": ""
+}

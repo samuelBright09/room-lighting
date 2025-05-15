@@ -327,7 +327,7 @@ h3 {
 .auto_on span:last-child {
     font-weight: 600;
 }
-.close-btn {
+.close_btn {
     position: absolute;
     top: 20px;
     right: 20px;
@@ -394,11 +394,11 @@ h4 {
     border-radius: 4px;
 }
 
-.img_svg-container {
+.img_svg_container {
     width: 30px;
     display: flex;
 }
-.wifi-container {
+.wifi_container {
     position: fixed;
     width: fit-content;
     right: 20px;
@@ -537,7 +537,7 @@ button {
 }
 
 /* loading effect */
-.loader-container {
+.loader_container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -567,7 +567,7 @@ button {
 .hidden {
     display: none;
 }
-.wifi-active {
+.wifi_active {
     background: #00a;
 }
 .wifi_connection_container {

@@ -6,7 +6,7 @@
     <title>Smart Home Component | Smart Light</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
-    <script type="module" src="main.js"></script>
+    <script type="module" src="./dist/main.js"></script>
 </head>
 <body>
     <!-- homepage ui -->
@@ -24,7 +24,7 @@
 
     <!-- application ui -->
      <nav class=" hidden ">
-         <button class="network-container">
+         <button class="network_container">
              <img src="./assets/svgs/wifi.svg" alt="wifi svg icon">
         </button>
         <button class="general_light_switch">
@@ -44,11 +44,11 @@
                         <input type="range" name="light intensity" id="light_intensity" value="0" min="0" max="10">
                     </section>
                     <section class="basic_settings_buttons">
-                        <button class="light-switch">
+                        <button class="light_switch">
                             <img src="./assets/svgs/light_bulb_off.svg" data-lightOn="./assets/svgs/light_bulb.svg" alt="fullscreen button svg icon">
                         </button>
 
-                        <button class="advance-settings_modal">
+                        <button class="advance_settings_modal">
                             <img src="./assets/svgs/enlarge.svg" alt="fullscreen button svg icon">
                         </button>
 
@@ -63,11 +63,11 @@
                         <input type="range" name="light intensity" id="light_intensity" value="0" min="0" max="10">
                     </section>
                     <section class="basic_settings_buttons">
-                        <button class="light-switch">
+                        <button class="light_switch">
                             <img src="./assets/svgs/light_bulb_off.svg" data-lightOn="./assets/svgs/light_bulb.svg" alt="fullscreen button svg icon">
                         </button>
 
-                        <button class="advance-settings_modal">
+                        <button class="advance_settings_modal">
                             <img src="./assets/svgs/enlarge.svg" alt="fullscreen button svg icon">
                         </button>
 
@@ -82,11 +82,11 @@
                         <input type="range" name="light intensity" id="light_intensity" value="0" min="0" max="10">
                     </section>
                     <section class="basic_settings_buttons">
-                        <button class="light-switch">
+                        <button class="light_switch">
                             <img src="./assets/svgs/light_bulb_off.svg" data-lightOn="./assets/svgs/light_bulb.svg" alt="fullscreen button svg icon">
                         </button>
 
-                        <button class="advance-settings_modal">
+                        <button class="advance_settings_modal">
                             <img src="./assets/svgs/enlarge.svg" alt="fullscreen button svg icon">
                         </button>
 
@@ -104,11 +104,11 @@
                         <input type="range" name="light intensity" id="light_intensity" value="0" min="0" max="10">
                     </section>
                     <section class="basic_settings_buttons">
-                        <button class="light-switch">
+                        <button class="light_switch">
                             <img src="./assets/svgs/light_bulb_off.svg" data-lightOn="./assets/svgs/light_bulb.svg" alt="fullscreen button svg icon">
                         </button>
 
-                        <button class="advance-settings_modal">
+                        <button class="advance_settings_modal">
                             <img src="./assets/svgs/enlarge.svg" alt="fullscreen button svg icon">
                         </button>
 
@@ -123,11 +123,11 @@
                         <input type="range" name="light intensity" id="light_intensity" value="0" min="0" max="10">
                     </section>
                     <section class="basic_settings_buttons">
-                        <button class="light-switch">
+                        <button class="light_switch">
                             <img src="./assets/svgs/light_bulb_off.svg" data-lightOn="./assets/svgs/light_bulb.svg" alt="fullscreen button svg icon">
                         </button>
 
-                        <button class="advance-settings_modal">
+                        <button class="advance_settings_modal">
                             <img src="./assets/svgs/enlarge.svg" alt="fullscreen button svg icon">
                         </button>
 
@@ -142,11 +142,11 @@
                         <input type="range" name="light intensity" id="light_intensity" value="0" min="0" max="10">
                     </section>
                     <section class="basic_settings_buttons">
-                        <button class="light-switch">
+                        <button class="light_switch">
                             <img src="./assets/svgs/light_bulb_off.svg" data-lightOn="./assets/svgs/light_bulb.svg" alt="fullscreen button svg icon">
                         </button>
 
-                        <button class="advance-settings_modal">
+                        <button class="advance_settings_modal">
                             <img src="./assets/svgs/enlarge.svg" alt="fullscreen button svg icon">
                         </button>
 
@@ -164,11 +164,11 @@
                         <input type="range" name="light intensity" id="light_intensity" value="0" min="0" max="10">
                     </section>
                     <section class="basic_settings_buttons">
-                        <button class="light-switch">
+                        <button class="light_switch">
                             <img src="./assets/svgs/light_bulb_off.svg" data-lightOn="./assets/svgs/light_bulb.svg" alt="fullscreen button svg icon">
                         </button>
 
-                        <button class="advance-settings_modal">
+                        <button class="advance_settings_modal">
                             <img src="./assets/svgs/enlarge.svg" alt="fullscreen button svg icon">
                         </button>
 
@@ -179,13 +179,13 @@
         </div>
 
              <!-- wifi -->
-      <div class="wifi-container ">
+      <div class="wifi_container ">
         <section class="wifi_connection_list_container hidden">
         </section>
         <section class="wifi_notification">
             <p class="hidden not_available">Wifi is currently not available</p>
             <!-- <p class="hidden available">Wifi connections available</p> -->
-            <div class="img_svg-container">
+            <div class="img_svg_container">
                 <img src="./assets/svgs/wifi.svg" alt="disconnected wifi svg logo" data-altWifiImg="./assets/svgs/wifi-disconnected.svg">
             </div>
         </section>
@@ -197,7 +197,7 @@
      <section class="advanced_features_container hidden "></section>
 
      <!-- loader effect -->
-     <div class="loader-container hidden">
+     <div class="loader_container hidden">
         <div class="loader"></div>
       </div>
     
