@@ -1,8 +1,8 @@
 // main.ts
 
 // Import classes
-import Light from "./basicSettings";
-import AdvanceSettings from "./advanceSettings";
+import Light from "./basicSettings.js";
+import AdvanceSettings from "./advanceSettings.js";
 
 // Select DOM elements
 const homepageButton = document.querySelector(

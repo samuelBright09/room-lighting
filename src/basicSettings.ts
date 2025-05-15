@@ -1,6 +1,6 @@
 
 
-import General from './general';
+import General from './general.js';
 import type { RoomData } from './general';
 
 class Light extends General {

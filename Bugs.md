@@ -32,19 +32,38 @@ Identified reading code base
 Chnaged all khebab cases to snake cases
 
 
-### Bug3: 
-
-
+### Bug3: Issue in handling falsy values
+In the method customizeAutomaticOffPreset() and customizeAutomaticOnPreset(), the line that checks for a falsy value reverses the logic in the sense that the function continues execution as expected when value is falsy (null, undefined, "", false and 0) instead of returning or stopping execution. This is because, the double negation operator makes the value a truthy so it returns and the rest of the logic is not excuted when value is truthy.
 ### Line number
-
+advancedSettings.js: 141, 164
 
 ### Bug type
-
+Logical error
 
 ### Identification Method
-
+Identified reading codebase and using console.logs
 
 ### fix
+took off one logical not operator in if condition to imply a logical not.
+
+
+### Bug4: Wrong type checking 
+In the handleLightIntensitySlider(), the condition typeof(intensity) === isNaN is an invalid check. isNaN is a function, not a valid type.
+
+### Line number
+basicSettings.js: 75
+### Bug type
+Invalid type checking
+
+### Identification Method
+Identified reading codebase and researching on isNan
+
+### fix
+Replaced isNan with the isNan() with intensiry passed as an argument which actually checks if intenstiy is not a number.
 
 
 
+
+
+
+ 
