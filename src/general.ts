@@ -99,7 +99,7 @@ class General {
 
   getComponent(name: string): RoomData | null {
     if (!name) return null;
-    return this.componentsData[name];
+    return this.componentsData[name] || null;
   }
 
   getWifi(): WifiConnection[] {
@@ -127,7 +127,7 @@ class General {
     element: HTMLElement,
     ancestorIdentifier: string,
     childElement: string
-  ): RoomData | undefined {
+  ): RoomData | null {
     const room = this.getSelectedComponentName(
       element,
       ancestorIdentifier,
@@ -135,7 +135,7 @@ class General {
     );
 
     const data = this.getComponent(room);
-    return data ?? undefined;
+    return data ?? null;
   }
 
   renderHTML(
